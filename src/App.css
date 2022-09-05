@@ -50,17 +50,19 @@ nav a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: all 10s ease;
 }
 
 .subnav-content {
   top: 15vh;
   display: flex;
   position: absolute;
-  transition: 0.5s ease;
+  transition: all 0.5s ease;
   align-items: center;
 }
 
 .subnav-content a {
+  display: none;
   color: #333;
   z-index: 1;
 }
@@ -72,13 +74,19 @@ nav a {
   height: 0;
   background-color: #FEFEE2;
   transition: all 1s ease;
-  position:absolute;
+  position: absolute;
   border-radius: 10px;
+}
+
+.subnav-container:hover > .subnav-content a {
+  display: block;
 }
 
 .subnav-container:hover > .subnav-content::before {
   height: 100%;
 }
+
+
 
 /* Nav bar end */
 
