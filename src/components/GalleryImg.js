@@ -53,7 +53,7 @@ export class Galleryimg extends React.Component {
                 <div class="gallery-body">
                     <div class="gallery-container">
                     <div className={ isHoverded ? "img-container img-container-hover" : "img-container"} onClick={this.colorfunction}>
-                        <img class="image" id="mex-img" src="./ressources/img/gallery/landscape/domie-sharpin-eRgFlbnzb48-unsplash.jpg" alt="" />
+                        <img class="image" id="mex-img" src="./ressources/img/Vannes/Ruault/Vue.jpg" alt="" />
                         <div class="villemiddle">
                             <p>Mexique</p>
                         </div>
