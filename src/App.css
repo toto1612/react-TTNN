@@ -163,6 +163,7 @@ nav a {
 .gallery-container .img-container-hover:hover {
   margin: 20px;
   transform: scale(1.2, 1.2);
+  cursor: pointer;
 }
 
 .gallery-container .img-container-hover:hover .image {
